@@ -3,7 +3,7 @@ import os
 
 def main():
     # Caminho para os pesos (verifique se este arquivo existe)
-    weights_path = '/home/tiago/Downloads/weights.pt'
+    weights_path = '/home/tiago/yolo_project/weights.pt'
     
     # Verifique se o arquivo de pesos existe
     if not os.path.exists(weights_path):
